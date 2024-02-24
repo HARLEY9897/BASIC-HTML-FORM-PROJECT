@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1><bold>STUDENT FORM</bold></H1>
+    <hr>
+    <form action="/action.php">
+        <h5> PROVIDE STUDENT DETAILS</h5>
+        <input type="text" placeholder="Type Username">
+       
+        <input type="password" placeholder="Type Password">
+     
+
+        <input type="email" placeholder="email ">
+        <br>
+        <h5>SELECT YOUR CITY</h5>
+        <select name="city">
+           <option value="Delhi">Delhi</option>
+           <option value="Hyderabad">Hyderabad</option>
+           <option value="Banglore">Banglore</option>
+           <option value="Dehradun">Dehradun</option>
+           <option value="Mumbai">Mumbai</option>
+       </select>
+       <br>
+        <h5>SELECT CLASS</h5>
+        <label for ="101">
+        <input type="radio" value="class XI" name="class" id="101">class XI
+    </label>
+    <br>
+    <label for="102">
+        <input type="radio" value="class XII" name="class" id="102">class XII
+    </label>
+    <br>
+    <h5>SELECT THREE FAVOURITE SUBJECTS</h5>
+    <label for="id1">
+        <input type="checkbox" value="math" name="subject" id="id1">Math
+    </label>
+    <label for="id2">
+        <input type="checkbox" value="physics" name="subject" id="id2">Physics
+    </label>
+    <label for="id3">
+        <input type="checkbox" value="chemistry" name="subject" id="id3">Chemistry
+    </label>
+    <label for="id4">
+        <input type="checkbox" value="Biology" name="subject" id="id4">Biology
+    </label>
+    <label for="id5">
+        <input type="checkbox" value="Social Studies" name="subject" id="id5">Social Studies
+    </label>
+    <label for="id6">
+        <input type="checkbox" value="Hindi" name="subject" id="id6">Hindi
+    </label>
+    <label for="id7">
+        <input type="checkbox" value="English" name="subject" id="id7">English
+    </label>
+   
+    <br>
+    <br>
+    <hr>
+    <h5>FEEDBACK</h5>
+    <textarea name="feedback" id="201" placeholder="PLEASE GIVE YOUR VALUABLE FEEDBACK HERE"
+    rows="10" cols="100"></textarea>
+    <input type="submit" value="submit">
+
+   
+    </form>
+
+</body>
+</html>
